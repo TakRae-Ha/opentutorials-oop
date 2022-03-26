@@ -5,6 +5,8 @@ class Person{
         this.second = second;
     }
 }
+//class : 객체를 만드는 공장
+//constructor : 객체가 생성될 떄 자동으로 생성전 실행되는 함수
  
 var kim = new Person('kim', 10, 20);
 console.log('kim', kim);
